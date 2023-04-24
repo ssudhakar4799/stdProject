@@ -1,0 +1,35 @@
+[{
+    "id":1,
+    "employe_id":11,
+    "stafName":"Srikanth",
+    "stAge":23,
+    "stMobile":8778964389,
+    "email":"sri123@gmail.com",
+    "password":"Srikanth321@",
+    "type":"employe",
+    "branch":"Thoraipakam",
+    "stDob":"12-12-1998",
+    "stBloodGroup":"A+",
+    "stPicture":"student.jpg",
+    "stAdress":"Vilupuram",
+    "stGender":"male",
+    "pic":"../Login/srikanth.jpeg"
+},
+{
+    "id":2,
+    "employe_id":12,
+    "stafName":"Gnanasekar",
+    "stAge":23,
+    "stMobile":8778964389,
+    "email":"gnanasekar123@gmail.com",
+    "password":"Gnanasekar321@",
+    "type":"employe",
+    "branch":"Pavoorchatram",
+    "stDob":"18-03-1999",
+    "stBloodGroup":"A+",
+    "stPicture":"student.jpg",
+    "stAdress":"Viralimalai",
+    "stGender":"male"
+
+}
+]

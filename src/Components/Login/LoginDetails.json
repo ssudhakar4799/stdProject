@@ -1,0 +1,72 @@
+[
+{
+    "id":1,
+    "stName":"Vijay",
+    "stAge":23,
+    "stMobile":8778964389,
+    "stdBatch":"FED09",
+    "email":"vijay123@gmail.com",
+    "password":"Vijay321@",
+    "stDob":"04-07-1999",
+    "stBloodGroup":"O+",
+    "stPicture":"student.jpg",
+    "stAdress":"v.poosaripatty",
+    "stGender":"male",
+    "type":"student",
+    "courseEnroled":[
+        {
+            "id":11,
+            "courseName":"Front End Developer",
+            "batchName":"FED09",
+            "isCompleted":false
+        },
+        {
+            "id":12,
+            "courseName":"Back End Developer",
+            "batchName":"FED09",
+            "isCompleted":true
+        },
+        {
+            "id":13,
+            "courseName":"Oracle",
+            "batchName":"FED09",
+            "isCompleted":false
+        },
+        {
+            "id":14,
+            "courseName":"Full Stack Developer",
+            "batchName":"FED09",
+            "isCompleted":true
+        }
+    ]
+},
+{
+    "id":11,
+    "stName":"Venkat",
+    "stAge":23,
+    "stMobile":8776764389,
+    "stdBatch":"FED10",
+    "email":"venkat123@gmail.com",
+    "password":"Venkat321@",
+    "stDob":"05-07-1999",
+    "stBloodGroup":"A+",
+    "stPicture":"student.jpg",
+    "stAdress":"Tenkasi",
+    "stGender":"male",
+    "type":"student",
+    "courseEnroled":[
+        {
+            "id":31,
+            "courseName":"Front End Developer",
+            "batchName":"FED09",
+            "isCompleted":false
+        },
+        {
+            "id":32,
+            "courseName":"Back End Developer",
+            "batchName":"FED09",
+            "isCompleted":true
+        }
+    ]
+}
+]

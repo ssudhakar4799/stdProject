@@ -1,0 +1,23 @@
+.style-card{
+    width: 30%;
+    background-color: lightgray;
+    display: flex;
+    margin: 20px 10px 0 0;
+    border: solid 0.5px lightgray;
+}
+
+.log{
+    /* margin-left: 54px; */
+    padding-right: 20px;
+}
+
+.data-list-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-header{
+    background-color: #670099 !important;
+    border: solid 1px #eee;
+    color: #fff;
+    font-weight: 600;
+}

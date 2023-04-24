@@ -1,0 +1,66 @@
+.sidebar{
+    background-color: #670099;
+    padding: 10px 15px;
+    width: 200px;
+    overflow-y: hidden;
+    position: relative;
+    height: 100vh;
+    position: fixed;
+}
+.user-profile{
+    text-align: center;
+    color: #fff;
+}
+.user-picture{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-info h1{
+    margin-bottom: 0;
+}
+
+.side-nav{
+    list-style: none;
+    padding: 0;
+}
+.menu-active{
+    background-color: #00bcd4;
+}
+.side-nav li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-bottom: solid 1px #999;
+    position: relative;
+    font-weight: bold;
+}
+.side-nav li a:hover{
+    background-color: #00bcd4;
+    color: #fff;
+    border-color: #00bcd4;
+}
+
+.logout-btns{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.logout-btns button{
+    background-color: rgb(58, 56, 56) ;
+    border-color: rgb(109, 106, 106);
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.images{
+    border-radius: 4rem;
+    width: 103%;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+.check {
+    color: green;
+}
+
+.seprate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.you-tube {
+    opacity: 0.6;
+    cursor: not-allowed;
+    color: gray;
+}
+
+.crl {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #999;
+    position: relative;
+}
+
+.crl::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    height: 7px;
+    width: 13px;
+    background-color: transparent;
+    border-width: 0 0 2px 2px;
+    border-style: solid;
+    border-color: green;
+    transform: rotateZ(-52deg);
+}
+.crl-noActive{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #999;
+    position: relative;
+}
+

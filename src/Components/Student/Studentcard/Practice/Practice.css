@@ -1,0 +1,31 @@
+.seprate {
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    border-radius: 2rem;
+    font-size: xx-small;
+    padding: 2px 14px;
+    color: white;
+    border: lightblue;
+    margin-right: 5px;
+}
+.seprate h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+.inout-box{
+    height: 20px;
+    width: 86%;
+    border-radius: 2rem;
+    border: solid 1px #eee;
+}
+/* .btns{
+    border-radius: 2rem;
+    font-size: xx-small;
+    padding: 2px 14px;
+} */
+.inout-box::placeholder{
+font-size: small;
+}
